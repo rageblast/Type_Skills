@@ -1,0 +1,31 @@
+https://www.typescriptlang.org/
+
+npm install -g typescript ts-node
+
+tsc --help
+
+vs - view - command palette - install path
+
+prettier - settings
+
+- the above one is used to install typescript
+- ts-node is a another package that used to complie typescript easily
+
+- first we need to run 
+- tsc index.ts
+
+- then a js script is created for the above command
+
+- then run node index.js
+
+- to combine both we use ts-node index.ts - the ts-node library we installed help's use to run both the node and tsc
+
+tsc --init (bash) (or) (tsc.cmd --init) (windows) -> it will create a tsc config file 
+- why we use it because we have two folders src -> hosts ts files
+- build - hosts js files of the above ts files
+
+use the rootdir and outDir in ts.config to do the above
+
+tsc -w - this will watch the files and whenever ever we change the files it will recreate the js files for us 
+
+npm install @types/node -> type definition file for all node library

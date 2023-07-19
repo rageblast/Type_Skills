@@ -1,0 +1,14 @@
+// Array-like structure where each element represents
+// some property of a record
+
+// Object representing a drink
+
+// color - brown
+// carbonated - true
+// sugar - 40
+
+// ['brown', true, 40]
+// we have represented as above but we don't have lable to it
+// we need to memorize everything
+// order is important
+// fixed series of elements

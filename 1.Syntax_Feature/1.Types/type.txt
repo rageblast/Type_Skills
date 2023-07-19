@@ -1,0 +1,19 @@
+Easy way to refer to the different properties + 
+functions that a value has
+
+Type      Values that have this Type
+String  - "Hi There", "", "Today is Monday"
+Number  - .00025 -20 4000
+Boolean - true, false
+Date - new Date()
+Todo - {id: 1, completed: true, title: "Trash"} (Interface)
+
+Types:
+
+Primitive Types:
+
+Primitive Types:
+Number Boolean Void Undefined String Symbol Null
+
+Object Types:
+Functions Arrays Classes Objects

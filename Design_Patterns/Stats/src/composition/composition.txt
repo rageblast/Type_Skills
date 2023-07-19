@@ -1,0 +1,14 @@
+class Wall                                |---> class Rectangle
+ -> color: string                         |      -> height: number
+ -> area(): number --|                    |      -> width: number 
+ -> dimensions: Shape --------------------|      -> area(): number 
+                                          |
+ class Window                             |---> class Circle 
+  -> open: boolean                                -> radius: number 
+  -> toggleOpen(): void                           -> area(): number 
+  -> arae(): number 
+  -> dimensions: Shape 
+
+  Here if we want wall to be rectangle -> we can use the rectangle class using the 
+  -> dimensions and refer its methods -> same goes for window also
+

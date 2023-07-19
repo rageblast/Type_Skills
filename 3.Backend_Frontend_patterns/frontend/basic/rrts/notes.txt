@@ -1,0 +1,45 @@
+npx create-react-app rrts --template typescript
+
+import React from 'react';
+// import { ReactDOM } from 'react';
+import ReactDOM from 'react-dom/client';
+
+const el = document.getElementById('root');
+
+const root = ReactDOM.createRoot(el!);
+
+interface AppProps {
+  color?: string;
+}
+
+const App = (props: AppProps): JSX.Element => {
+  return <div>{props.color}</div>;
+};
+
+// we can add state as a generics to the below compoenent
+// class App extends React.Component<AppProps> {
+//   // two ways of defining state we used the first
+//   state = { counter: 0 };
+
+//   onIncrement = (): void => {
+//     this.setState({ counter: this.state.counter + 1 });
+//   };
+
+//   onDecrement = (): void => {
+//     this.setState({ counter: this.state.counter - 1 });
+//   };
+//   render() {
+//     return (
+//       <div>
+//       <button onClick={this.onIncrement}> Increment <button/>
+//       <button onClick={this.onDecrement}> Decrement <button/>
+//       </div>
+//     );
+//   }
+// }
+
+root.render(<App />, root);
+
+JSX or React Component - .tsx 
+
+no JSX - .ts

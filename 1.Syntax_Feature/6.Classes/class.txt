@@ -1,0 +1,13 @@
+Blueprint to create an objet with some fields(values)
+and methods(functions) to represent a 'thing'
+
+Modifiers:
+
+Public: This method can be called any where, any time
+
+Private: This method can only be called by other methods in this Classes
+
+Protected: This method can be called by other methods in
+this class, or by other methods in child classes
+
+default every value is public

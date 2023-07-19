@@ -1,0 +1,28 @@
+tsc index.ts -> gives -> index.js
+
+ts code - inside - src
+js code - inside - build
+
+to do the above follow the below
+
+tsc --init (bash) (or) (tsc.cmd --init) (windows) -> it will create a tsc config file 
+- why we use it because we have two folders src -> hosts ts files
+- build - hosts js files of the above ts files
+
+use the rootdir and outDir in ts.config to do the above
+
+tsc -w - this will watch the files and whenever ever we change the files it will recreate the js files for us
+
+
+Type Gaurds:
+
+1. this.collection instanceof Array
+2. typeof this.collection === 'string'
+
+Narrow type of a value to a primitive type: 
+typeof - number string boolean symbol
+
+Narrow down every other type of value:
+instanceof - Every other value that is created with a constructor function
+
+Like - own class(defined by us), array, Date etc

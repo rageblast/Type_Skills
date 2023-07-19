@@ -1,0 +1,42 @@
+Instead of using ts-node we can use parcel like nodemon
+for ts
+
+using npx we can run the Parcel tool
+
+Use type Module in script tag of Index.html 
+
+npx parcel index.html
+
+it will convert index.ts to index.js and run it inside html
+
+go to Maps run npx parcel index.html
+
+Then go to localhost1234
+
+file name with capital letter starting will export some methods to index
+
+we can install whatever packages of javascript we want
+
+but type script needs to know what type of argument they take and what type they will return
+
+In short ts have to know what type of datas are flowing through the applications.
+
+so every js packages their is a Type definition file so type script may know their types
+
+Typescript Code --- Type Definition File --- JS library
+
+some times Type Definition files are automatically downloaded by the JS library 
+
+but some times we need to download the files for the JS library
+
+definitely Typed - means type file for JS library
+
+for script file we had for google in index.html we need to add
+
+Type Definition file also because ts won't know does we have a global variable
+
+google in it.
+
+Ctrl + click - google - to see their methods - Maps - control click
+
+Remember the ctrl + click - interface (don't forget it)

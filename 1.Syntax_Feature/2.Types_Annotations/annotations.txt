@@ -1,0 +1,29 @@
+how to apply Type Annotations + Type Inference for below ones
+
+- Varaiables
+- Functions
+- Objects
+
+Type Annotations:
+
+Code we add to tell Typescript what type of value
+a variable will refer to 
+
+Type Inference:
+
+Typescript tries to figure out what type of value a
+varaiable refers to 
+
+Type Annotations  ----- Type Inference
+(We developers tell     (Typescript guesses the type)
+Typescript the type)
+
+when to use
+
+Annotations:
+- when we declare a var on one line then initialize it later
+- when we want a var to have a type that can't be inferred
+- when a function returns the 'any' type and we need clarify the value 
+
+Inference:
+Always!
