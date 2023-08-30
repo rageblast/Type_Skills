@@ -1,0 +1,9 @@
+npm i -g json-server
+
+point it to db.json 
+
+initial setup -> {
+  "users": []
+}
+
+open second terminal -> type -> json-server -w db.json
