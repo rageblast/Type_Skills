@@ -7,3 +7,8 @@ initial setup -> {
 }
 
 open second terminal -> type -> json-server -w db.json
+
+axios.post('http://localhost:3000/users',{
+  name: 'myname',
+  age: 20
+})
