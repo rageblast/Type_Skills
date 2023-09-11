@@ -4,7 +4,7 @@ interface propobject {
   age?: number;
 }
 
-export class Attributes<T extends propobject> {
+export class Attributes<T extends Object> {
   constructor(private data: T) {}
 
   get = <K extends keyof T>(key: K): T[K] => {
