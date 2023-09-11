@@ -15,6 +15,7 @@ export class Attributes<T extends Object> {
   // key: K -> is a string with prop name of propobject(T)
   // T[K] -> propobject[id] -> any value in square brackets -> returns the type
 
+  // because of the below one we used Object in the extend
   set(update: T): void {
     Object.assign(this.data, update);
   }
