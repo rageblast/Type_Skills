@@ -1,5 +1,11 @@
 1. Use the lib normally, adding in basic type annotations where possible
+
+app.get(req: Request)
+
 2. Use a TS adapter library that has helpers for using your lib with TS
+
+npm library
+
 3. Twist your lib to work with TS classes
 
 Pros and cons
